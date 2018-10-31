@@ -1,0 +1,1 @@
+This package is empty and the only point of it is to force the drivetrain message type to build, which is something the arduino cannot do.  Once any other script uses the drive.msg message type, this entire package can be deleted.
