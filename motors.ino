@@ -14,12 +14,12 @@ pinMode(rfront, OUTPUT);
 
 void loop() {
   //go forward
-  analogWrite(3, 75); //motor pin, SPEED
-  analogWrite(4, 75); //motor pin, SPEED
+  digitalWrite(3, 75); //motor pin, SPEED
+  digitalWrite(4, 75); //motor pin, SPEED
   delay(2);
 
   //go backward
-  analogWrite(3, -75); //motor pin, SPEED
-  analogWrite(4, -75); //motor pin, SPEED
+  digitalWrite(3, -75); //motor pin, SPEED
+  digitalWrite(4, -75); //motor pin, SPEED
   delay(2);
 }
