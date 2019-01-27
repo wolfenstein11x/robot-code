@@ -1,9 +1,0 @@
-[submodule "ros_ws/src/image_pipeline"]
-	path = ros_ws/src/image_pipeline
-	url = https://github.com/ros-perception/image_pipeline.git
-[submodule "ros_ws/src/image_common"]
-	path = ros_ws/src/image_common
-	url = https://github.com/ros-perception/image_common.git
-[submodule "ros_ws/src/usb_cam"]
-	path = ros_ws/src/usb_cam
-	url = https://github.com/ros-drivers/usb_cam.git
